@@ -1,0 +1,6 @@
+html, body, h1, h2, p , span, a,div, ol, ul, li,table, tbody, tfoot, thead, tr, th, td,canvas,input {margin: 0;padding: 0;}
+body{-webkit-text-size-adjust:none;}
+a,img,button,input,textarea,div{-webkit-tap-highlight-color:rgba(255,255,255,0);}
+ol, ul {list-style: none;}
+a{text-decoration: none;}
+table { border-collapse: collapse;border-spacing: 0;}

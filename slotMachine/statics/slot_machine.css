@@ -3,5 +3,23 @@ body {
 }
 .slot-wp,
 .slot-bg {
-    width: 100%
+    width: 100%;
+}
+.slot-wp {
+    position: relative;
+    font-size: 0;
+}
+.slot-wp .screen,
+.slot-wp .slot-btn {
+    position: absolute;
+}
+.slot-wp .slot-btn {
+    background: url(images/slot-btn-up.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.slot-wp .slot-btn.down {
+    background: url(images/slot-btn-down.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
